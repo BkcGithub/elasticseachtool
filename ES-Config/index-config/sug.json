@@ -1,0 +1,31 @@
+{
+    "sug": {
+        "properties": {
+            "city": {
+                "type": "string",
+                "index": "not_analyzed"
+            },
+            "displayType": {
+                "type": "string",
+                "index": "not_analyzed"
+            },
+            "name": {
+                "type": "string"
+            },
+            "namePinYin": {
+                "type": "string"
+            },
+            "namePinYinShort": {
+                "type": "string"
+            },
+            "searchType": {
+                "type": "string",
+                "index": "not_analyzed"
+            },
+            "type": {
+                "type": "string",
+                "index": "not_analyzed"
+            }
+        }
+    }
+}

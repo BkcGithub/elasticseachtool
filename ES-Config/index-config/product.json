@@ -1,0 +1,168 @@
+{
+    "place": {
+        "properties": {
+            "acceptPayment": {
+                "type": "string"
+            },
+            "address": {
+                "type": "string"
+            },
+            "businessDistrict": {
+                "type": "string",
+                "index": "not_analyzed"
+            },
+            "cityName": {
+                "type": "string",
+                "index": "not_analyzed"
+            },
+            "defaultSortValue": {
+                "type": "long"
+            },
+            "diningServiceText": {
+                "type": "string",
+                "index": "not_analyzed"
+            },
+            "district": {
+                "type": "string",
+                "index": "not_analyzed"
+            },
+            "encryptedId": {
+                "type": "string",
+                "index": "not_analyzed"
+            },
+            "facilityText": {
+                "type": "string",
+                "index": "not_analyzed"
+            },
+            "frontpageImage": {
+                "type": "string",
+                "index": "not_analyzed"
+            },
+            "fullName": {
+                "type": "string"
+            },
+            "fullNamePinYin": {
+                "type": "string"
+            },
+            "fullNamePinYinShort": {
+                "type": "string"
+            },
+            "functionalities": {
+                "type": "string",
+                "index": "not_analyzed"
+            },
+            "geoLatLng": {
+                "type": "geo_point"
+            },
+            "geoLatitude": {
+                "type": "double"
+            },
+            "geoLongitude": {
+                "type": "double"
+            },
+            "highestHeadcount": {
+                "type": "long"
+            },
+            "highestListPrice": {
+                "type": "double"
+            },
+            "highestPrice": {
+                "type": "double"
+            },
+            "highestPriceUnit": {
+                "type": "long"
+            },
+            "id": {
+                "type": "long"
+            },
+            "isListed": {
+                "type": "string",
+                "index": "not_analyzed"
+            },
+            "isVerified": {
+                "type": "string",
+                "index": "not_analyzed"
+            },
+            "listPrice": {
+                "type": "double"
+            },
+            "lowestHeadcount": {
+                "type": "long"
+            },
+            "lowestListPrice": {
+                "type": "double"
+            },
+            "lowestPrice": {
+                "type": "double"
+            },
+            "lowestPriceUnit": {
+                "type": "long"
+            },
+            "miscReminderText": {
+                "type": "string",
+                "index": "not_analyzed"
+            },
+            "openSinceDate": {
+                "type": "long"
+            },
+            "pickTags": {
+                "type": "string",
+                "index": "not_analyzed"
+            },
+            "placeFacilityTags": {
+                "type": "string",
+                "index": "not_analyzed"
+            },
+            "placeTypeTags": {
+                "type": "string",
+                "index": "not_analyzed"
+            },
+            "promoTags": {
+                "type": "string"
+            },
+            "provinceName": {
+                "type": "string",
+                "index": "not_analyzed"
+            },
+            "reviewRating": {
+                "type": "long"
+            },
+            "sales1ImId": {
+                "type": "string",
+                "index": "not_analyzed"
+            },
+            "sales1Name": {
+                "type": "string",
+                "index": "not_analyzed"
+            },
+            "sales1PhoneNum": {
+                "type": "string",
+                "index": "not_analyzed"
+            },
+            "sales1Position": {
+                "type": "string",
+                "index": "not_analyzed"
+            },
+            "shortDescription": {
+                "type": "string",
+                "index": "not_analyzed"
+            },
+            "sizeHeadcount": {
+                "type": "long"
+            },
+            "sizeSqMeter": {
+                "type": "long"
+            },
+            "starRating": {
+                "type": "long"
+            },
+            "submitterName": {
+                "type": "string",
+                "index": "not_analyzed"
+            },
+            "hasReceipt":{
+                "type" : "keyword"
+            }
+        }
+    }
+}

@@ -1,0 +1,7 @@
+cloud.aws.access_key: "AKIAOX2SLNJYM55SQMVQ"
+cloud.aws.secret_key: "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"
+cluster.name: elasticsearch-prod
+discovery.type: ec2
+discovery.ec2.host_type: private_ip
+discovery.ec2.groups: prod-elasticsearch-group
+cloud.aws.region: cn-north
